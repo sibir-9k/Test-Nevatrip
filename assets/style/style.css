@@ -31,8 +31,8 @@ a {
 }
 img {
 	max-width: 100%;
-  height: 100%;
-  object-fit: cover;
+	height: 100%;
+	object-fit: cover;
 }
 
 h2 {
@@ -61,6 +61,9 @@ button {
 }
 .card__time img {
 	margin-right: 0.5rem;
+}
+.card__time-large {
+	display: none;
 }
 .card__time-text {
 	font-family: var(--body-font);
@@ -105,7 +108,6 @@ button {
 	justify-content: flex-end;
 	margin-bottom: 1.944rem;
 }
-
 .time {
 	padding: 6px 14px;
 	background: #d9e8ff;
@@ -117,12 +119,14 @@ button {
 	font-weight: var(--font-regular);
 	line-height: 20px;
 }
-
+.time:hover {
+	background: #6ba6ff;
+	color: #fff;
+}
 .price {
 	display: flex;
 	justify-content: space-between;
 }
-
 .price__title {
 	font-family: var(--body-font);
 	font-weight: var(--font-regular);
@@ -159,9 +163,50 @@ button {
 		padding: 1rem 1.06rem 1.62rem 1.43rem;
 	}
 	.card__title {
-		font-size: 1.62rem;
+		font-size: 1.44rem;
+		line-height: 1.88rem;
 	}
-  .card__img{
-    min-width: 472px;
+	.card__img {
+		min-width: 472px;
+	}
+  .card__list p{
+    width: 100%;
+    margin-right: 0.5rem;
+  }
+	.card__item {
+		font-size: 1rem;
+		line-height: 1.11rem;
+    margin-bottom: 0.61rem;
+	}
+  .item-time{
+    flex-wrap: nowrap;
+  }
+	.timetable {
+		margin-bottom: 0;
+	}
+	.price {
+		display: flex;
+		justify-content: flex-start;
+	}
+	.price__text {
+		margin-right: 0.5rem;
+	}
+  .price__subtitle{
+    font-size: 0.77rem;
+    line-height: 1.11rem;
+  }
+  .price__btn{
+    font-size: 1rem;
+    line-height: 1.11rem;
+  }
+	.card__time-large {
+		display: flex;
+    margin-bottom: 0.5rem;
+	}
+  .card__time-large img {
+    margin-right: 0.5rem;
+  }
+  .card__time{
+    display: none;
   }
 }
