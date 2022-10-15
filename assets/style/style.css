@@ -31,14 +31,17 @@ a {
 }
 img {
 	max-width: 100%;
-	height: auto;
+  height: 100%;
+  object-fit: cover;
 }
 
 h2 {
 	font-family: var(--body-font);
 	font-weight: var(--font-regular);
 }
-
+button {
+	cursor: pointer;
+}
 .container {
 	padding: 1.85rem 1rem;
 }
@@ -80,6 +83,7 @@ h2 {
 }
 .card__item {
 	display: flex;
+	align-items: flex-start;
 	font-family: var(--body-font);
 	font-weight: var(--font-regular);
 	font-size: 0.7778rem;
@@ -92,7 +96,10 @@ h2 {
 .card__item p {
 	width: 250px;
 }
-
+.item-time {
+	display: flex;
+	flex-wrap: wrap;
+}
 .timetable {
 	display: flex;
 	justify-content: flex-end;
@@ -154,4 +161,7 @@ h2 {
 	.card__title {
 		font-size: 1.62rem;
 	}
+  .card__img{
+    min-width: 472px;
+  }
 }
