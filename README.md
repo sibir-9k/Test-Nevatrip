@@ -22,6 +22,7 @@
 - "из A в B и обратно в А" стоимость составного билета 1200р
 
 - Время пути в одну сторону 50 минут.
+
 [Посмотреть исходный код](https://github.com/sibir-9k/JS-task-Nevatrip)
 
 [Взгялнуть на демо](https://sibir-9k.github.io/JS-task-Nevatrip/)
